@@ -1,0 +1,144 @@
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+.main {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  border-bottom: 0.75px solid black;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  border-bottom: 0.75px solid #8b635c;
+  color: #8b635c;
+}
+
+h5 {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  border-bottom: 0.75px solid #8b635c;
+  color: #8b635c;
+}
+
+.contents {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.3em;
+  background-color: #dcbf8575;
+  border:rgb(60, 60, 60) solid 1px;
+  margin: 20px 30px;
+  max-width: 50%;
+}
+
+.contents ul {
+  list-style-type: none;
+  margin: 5px 10px 5px -20px;
+}
+
+.contents ul a {
+  color: #086375;
+  text-decoration: none;
+}
+
+.contents ul li {
+  border-bottom: 0.5px dotted 
+}
+
+.imgcenter {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.block {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  background-color: lightgray;
+  border: black solid 1px;
+  counter-reset: line;
+}
+
+code {
+  display: block;
+  border-bottom: black 0.5px dotted;
+  padding: 7px 20px 7px 40px;
+  counter-increment: line;
+}
+
+code:before{
+  content: counter(line);
+  margin-left: -27px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: solid 0.75px black;
+  font-family: Arial, Helvetica, sans-serif
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  line-height: 1.3em;
+}
+
+th, td {
+  padding: 5px 15px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+  font-size: 1.2em;
+}
+
+.navbar {
+  background-color: #3c1642;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#sidenote {
+  padding: 10px;
+  margin: 0 0 0 10px;
+  max-width: 50%;
+  float: right;
+  background-color: #1dd3b0;
+}
